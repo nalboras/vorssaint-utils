@@ -51,7 +51,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -418,6 +418,36 @@ extension BrightnessFeatureStrings {
         softwareDimming: "調暗畫面"
     )
 
+
+    static let pl = BrightnessFeatureStrings(
+        pageTitle: "Ekrany",
+        hubDescription: "Sterowanie jasnością i zasilaniem każdego ekranu",
+        enable: "Steruj ekranami",
+        enableCaption: "Sterowanie jasnością oraz włączaniem i wyłączaniem wbudowanego ekranu i monitorów zewnętrznych — tutaj oraz w panelu paska menu.",
+        externalCaption: "Monitory zewnętrzne są sterowane tym samym protokołem, którego używają ich własne przyciski. Gdy połączenie nie obsługuje tej funkcji, np. przez przejściówkę HDMI, suwak przyciemnia obraz programowo, dzięki czemu sterowanie jasnością działa w obu przypadkach.",
+        noDisplays: "Nie znaleziono ekranu.",
+        displayOff: "Wyłączony",
+        turnOffDisplay: "Wyłącz ekran",
+        turnOnDisplay: "Włącz ekran",
+        lastDisplayCaption: "Co najmniej jeden ekran musi pozostać włączony.",
+        switchUnavailable: "Przełączanie ekranów jest niedostępne na tym Macu.",
+        switchFailed: "Nie udało się zmienić stanu tego ekranu.",
+        openLidToEnable: "Otwórz pokrywę, aby włączyć wbudowany ekran.",
+        keysToggle: "Klawisze jasności sterują ekranem pod wskaźnikiem",
+        keysCaption: "Klawisze jasności zmieniają jasność ekranu znajdującego się pod wskaźnikiem.",
+        osdToggle: "Pokazuj poziom jasności podczas regulacji",
+        osdCaption: "Pokazuje wartość procentową jasności podczas używania klawiszy jasności lub suwaków.",
+        displayBrightnessShortcuts: "Używaj skrótów jasności ekranu",
+        displayBrightnessShortcutCaption: "Skróty regulują główny ekran albo ekran pod wskaźnikiem, gdy włączone jest śledzenie wskaźnika.",
+        displayBrightnessDecrease: "Zmniejsz jasność ekranu",
+        displayBrightnessIncrease: "Zwiększ jasność ekranu",
+        keyboardLight: "Podświetlenie klawiatury",
+        keyboardLightCaption: "Włącza lub wyłącza podświetlenie klawiatury.",
+        keyboardBrightnessShortcuts: "Używaj skrótów jasności klawiatury",
+        keyboardBrightnessDecrease: "Zmniejsz jasność klawiatury",
+        keyboardBrightnessIncrease: "Zwiększ jasność klawiatury",
+        softwareDimming: "Przyciemniaj obraz"
+    )
     static let zhHK = BrightnessFeatureStrings(
         pageTitle: "顯示器",
         hubDescription: "控制所有顯示器的亮度和開關",
