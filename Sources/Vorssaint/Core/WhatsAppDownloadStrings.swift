@@ -60,7 +60,7 @@ struct WhatsAppDownloadStrings {
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
         case .zhHK: return .zhHK
-        case .pl: return .enUS
+        case .pl: return .pl
         }
     }
 }
@@ -308,6 +308,49 @@ extension WhatsAppDownloadStrings {
         existing: "包括現有檔案", firstTitle: "如何處理現有檔案？",
         trash: "檔案會移至垃圾桶，清空前仍可復原。", notificationTitle: "WhatsApp 清理")
 
+
+    static let pl = WhatsAppDownloadStrings(
+        title: "Pobrane pliki WhatsApp",
+        hubDescription: "Porządkuj pliki WhatsApp w folderze Pobrane",
+        intro: "Znajduje pliki, których pochodzenie z WhatsApp potwierdza macOS. Nigdy nie odczytuje zawartości plików ani czatów.",
+        automatic: "Porządkuj automatycznie",
+        automaticCaption: "Raz dziennie sprawdza pliki spełniające reguły i przenosi do Kosza te starsze niż ustawiony limit.",
+        folder: "Monitorowany folder",
+        accessReady: "Folder Pobrane jest dostępny",
+        accessDenied: "Vorssaint nie może uzyskać dostępu do folderu Pobrane. Zezwól na dostęp w sekcji Pliki i foldery.",
+        fileTypes: "Typy plików",
+        allTypes: "Wszystkie",
+        image: "Obrazy",
+        video: "Wideo",
+        audio: "Audio i wiadomości głosowe",
+        document: "Dokumenty",
+        archive: "Archiwa",
+        other: "Inne",
+        retention: "Przechowuj przez",
+        retentionCaption: "Pliki niedawno zmienione ponownie odczekają cały wybrany okres.",
+        daysFormat: "%d dni",
+        manualIntro: "Skanuj w dowolnym momencie. Początkowy wybór uwzględnia ustawione typy i wiek plików, a każdy potwierdzony plik można sprawdzić.",
+        noFiles: "Nie znaleziono potwierdzonych plików WhatsApp w folderze Pobrane.",
+        resultsFormat: "Potwierdzonych plików: %1$d · %2$@",
+        selectRules: "Zaznacz według moich reguł",
+        cleanSelectedFormat: "Przenieś %1$d do Kosza · %2$@",
+        keep: "Zachowaj",
+        manageAgain: "Zarządzaj ponownie",
+        activity: "Aktywność",
+        neverRun: "Nie wykonano jeszcze żadnego porządkowania.",
+        lastRunFormat: "Ostatnie porządkowanie %@: %d plików · %@ · błędów: %d",
+        nextRunFormat: "Następne automatyczne sprawdzenie %@.",
+        firstTitle: "Co z istniejącymi plikami?",
+        firstMessageFormat: "%d istniejących plików już spełnia Twoje reguły. Wybierz, czy automatyzacja ma nimi również zarządzać, czy tylko przyszłymi pobraniami.",
+        futureOnly: "Tylko przyszłe pobrania",
+        includeExisting: "Uwzględniaj istniejące pliki",
+        trashNote: "Pliki są przenoszone do Kosza i można je odzyskać do czasu jego opróżnienia.",
+        localNote: "Sprawdzane są tylko lokalne metadane plików. Vorssaint nigdy nie odczytuje czatów ani zawartości plików.",
+        notificationTitle: "Porządkowanie WhatsApp",
+        notificationFormat: "Przeniesiono %1$d plików (%2$@) do Kosza. Nie udało się przenieść: %3$d.",
+        scanFailed: "Nie udało się przeskanować folderu Pobrane. Sprawdź uprawnienia w sekcji Pliki i foldery w Ustawieniach systemowych.",
+        manageButton: "Zarządzaj…"
+    )
     static let zhHK = translated(language: .zhHK,
         title: "WhatsApp 下載項目", hub: "管理下載項目中的 WhatsApp 檔案",
         intro: "尋找經 macOS 確認來自 WhatsApp 的檔案。絕不讀取檔案內容或對話。",
@@ -427,6 +470,21 @@ extension WhatsAppDownloadStrings {
                 localNote: "로컬 메타데이터만 확인합니다. 채팅이나 파일 내용은 읽지 않습니다.",
                 notificationFormat: "%1$d개(%2$@)를 휴지통으로 이동했습니다. %3$d개 실패.",
                 scanFailed: "다운로드 폴더를 검사할 수 없습니다. 시스템 설정의 파일 및 폴더를 확인하세요.", manageButton: "관리…")
+
+        case .pl:
+            return OperationalStrings(
+                automaticCaption: "Raz dziennie sprawdza pliki i przenosi do Kosza te spełniające reguły, które przekroczyły ustawiony limit.",
+                retentionCaption: "Pliki niedawno zmienione ponownie odczekają cały wybrany okres.",
+                manualIntro: "Skanuj w dowolnym momencie. Początkowy wybór uwzględnia typy i wiek plików, a wszystkie potwierdzone pliki można sprawdzić.",
+                resultsFormat: "Potwierdzonych plików: %1$d · %2$@", selectRules: "Zaznacz według moich reguł",
+                cleanSelectedFormat: "Przenieś %1$d do Kosza · %2$@",
+                lastRunFormat: "Ostatnie porządkowanie %@: %d plików · %@ · błędów: %d",
+                nextRunFormat: "Następne automatyczne sprawdzenie %@.",
+                firstMessageFormat: "%d istniejących plików już spełnia Twoje reguły. Wybierz, czy uwzględnić je, czy zarządzać tylko przyszłymi pobraniami.",
+                localNote: "Sprawdzane są tylko lokalne metadane. Vorssaint nie odczytuje czatów ani zawartości plików.",
+                notificationFormat: "Przeniesiono %1$d plików (%2$@) do Kosza. Nie udało się przenieść: %3$d.",
+                scanFailed: "Nie udało się przeskanować folderu Pobrane. Sprawdź Pliki i foldery w Ustawieniach systemowych.",
+                manageButton: "Zarządzaj…")
         case .zhHans:
             return OperationalStrings(
                 automaticCaption: "每天检查一次，并将超过期限的匹配文件移到废纸篓。",
