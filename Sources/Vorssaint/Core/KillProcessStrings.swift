@@ -54,7 +54,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -457,6 +457,39 @@ extension KillProcessFeatureStrings {
         adminPromptFormat: "Vorssaint 需要管理員權限才能結束「%@」。"
     )
 
+
+    static let pl = KillProcessFeatureStrings(
+        pageTitle: "Zakończ proces",
+        browseSubtitle: "Przeglądaj i kończ",
+        hubDescription: "Wyszukuj uruchomione procesy i wymuszaj ich zakończenie, ponowne uruchomienie lub zamknięcie całych drzew procesów",
+        searchPlaceholder: "Filtruj po nazwie",
+        columnProcess: "Proces",
+        columnCPU: "CPU",
+        columnMemory: "Pamięć",
+        columnPID: "PID",
+        groupToggle: "Grupuj powiązane procesy",
+        groupCaption: "Grupuje procesy pomocnicze pod aplikacją, która je uruchomiła.",
+        commandBarToggle: "Pokaż w pasku poleceń",
+        commandBarCaption: "Dodaje uruchomione procesy do paska poleceń, aby można było je znaleźć i zakończyć bez otwierania Ustawień.",
+        refreshTooltip: "Odśwież",
+        pidLabelFormat: "PID %d",
+        processCountFormat: "Procesy: %d",
+        killButton: "Zakończ",
+        forceKillButton: "Wymuś zakończenie",
+        killAllFormat: "Zakończ wszystkie procesy „%@”",
+        killTreeButton: "Zakończ drzewo procesów",
+        restartButton: "Uruchom ponownie",
+        copyPID: "Kopiuj PID",
+        copyPath: "Kopiuj ścieżkę",
+        emptyStateTitle: "Nie znaleziono procesów",
+        confirmKillFormat: "Zakończyć %@?",
+        confirmForceKillFormat: "Wymusić zakończenie %@?",
+        confirmKillAllFormat: "Zakończyć wszystkie procesy „%@”?",
+        confirmKillTreeFormat: "Zakończyć %@ i wszystkie jego procesy potomne?",
+        killFailedTitle: "Nie udało się zakończyć procesu",
+        killFailedMessage: "Proces mógł już zostać zakończony albo wymaga dodatkowych uprawnień.",
+        adminPromptFormat: "Vorssaint potrzebuje uprawnień administratora, aby zakończyć „%@”."
+    )
     static let zhHK = KillProcessFeatureStrings(
         pageTitle: "結束處理程序",
         browseSubtitle: "瀏覽並結束",
