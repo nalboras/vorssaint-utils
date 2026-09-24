@@ -1540,6 +1540,7 @@ enum FeatureCatalogTests {
                 case .ko: return .ko
                 case .zhHans: return .zhHans
                 case .zhTW: return .zhTW
+                case .pl: return .pl
                 case .zhHK: return .zhHK
                 }
             }()
