@@ -31,7 +31,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -194,6 +194,19 @@ extension MenuBarAppearanceStrings {
         highFrom: "高負載起點"
     )
 
+
+    static let pl = MenuBarAppearanceStrings(
+        label: "Sposób wyświetlania użycia",
+        values: "Wartości",
+        bars: "Paski",
+        caption: "Paski dotyczą użycia CPU, GPU, pamięci i dysku. Pozostałe odczyty pozostają liczbowe.",
+        customize: "Kolory i progi pasków",
+        normalColor: "Kolor normalny",
+        mediumColor: "Kolor średni",
+        highColor: "Kolor wysoki",
+        mediumFrom: "Średni od",
+        highFrom: "Wysoki od"
+    )
     static let zhHK = MenuBarAppearanceStrings(
         label: "使用率顯示",
         values: "數值",
