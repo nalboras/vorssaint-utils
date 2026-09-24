@@ -19,7 +19,7 @@ struct SettingsNavigationStrings {
         case .ja: return Self(go: "移動", back: "戻る", forward: "進む")
         case .ko: return Self(go: "이동", back: "뒤로", forward: "앞으로")
         case .zhHans: return Self(go: "前往", back: "后退", forward: "前进")
-        case .pl: return Self.localized(.enUS)
+        case .pl: return Self(go: "Przejdź", back: "Wstecz", forward: "Dalej")
         case .zhTW, .zhHK:
             return Self(go: "前往", back: "上一頁", forward: "下一頁")
         }
