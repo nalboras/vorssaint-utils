@@ -131,7 +131,7 @@ struct AdvancedSettings: View {
             Text(l10n.s.advancedUninstallConfirmBody)
         }
         .alert(l10n.s.advancedUninstallFailedTitle, isPresented: $uninstallFailed) {
-            Button("OK", role: .cancel) {}
+            Button(l10n.s.uninstallerDoneTitle, role: .cancel) {}
         } message: {
             Text(uninstallFailedBody)
         }
