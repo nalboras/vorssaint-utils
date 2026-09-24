@@ -44,7 +44,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -219,6 +219,20 @@ extension MouseExceptionStrings {
         pausedSuperKey: "所選 App 開啟期間已暫停"
     )
 
+
+    static let pl = MouseExceptionStrings(
+        listTitle: "Aplikacje bez zmian",
+        addButton: "Dodaj aplikację…",
+        removeButton: "Usuń",
+        captionSmoothScroll: "W tych aplikacjach kółko zachowuje zwykłe, skokowe przewijanie, dla programów, które interpretują je po swojemu, np. narzędzi 3D i graficznych.",
+        captionScrollDirection: "W tych aplikacjach kółko zachowuje kierunek przewijania ustawiony przez macOS.",
+        captionNavigation: "W tych aplikacjach przyciski boczne nadal działają tak jak dotychczas.",
+        captionButtonShortcuts: "W tych aplikacjach dodatkowe przyciski myszy nie wywołują skrótów, a ich naciśnięcie trafia bezpośrednio do aplikacji.",
+        captionMiddleClick: "W tych aplikacjach kliknięcie trzema palcami pozostaje zwykłym kliknięciem.",
+        captionFocusFollowsMouse: "W tych aplikacjach najechanie wskaźnikiem nie zmienia fokusu ani nie przenosi okna na wierzch.",
+        captionSuperKey: "Gdy którakolwiek z tych aplikacji jest otwarta, nawet w tle, Super Key zostaje wstrzymany, a wybrany klawisz działa normalnie.",
+        pausedSuperKey: "Wstrzymane, gdy wybrana aplikacja jest otwarta"
+    )
     static let zhHK = MouseExceptionStrings(
         listTitle: "不干預的 App",
         addButton: "加入 App…",
