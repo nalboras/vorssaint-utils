@@ -76,7 +76,7 @@ struct MediaImageConverterStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -803,6 +803,66 @@ extension MediaImageConverterStrings {
         batchSummaryItemFormat: "%@ -> %@"
     )
 
+
+    static let pl = MediaImageConverterStrings(
+        filesSelectedFormat: "Zaznaczono plików: %d",
+        profile: "Profil",
+        noProfile: "Brak profilu",
+        profileName: "Nazwa profilu",
+        saveAsNew: "Zapisz jako nowy",
+        updateProfile: "Aktualizuj",
+        deleteProfile: "Usuń profil",
+        profileModified: "Zmodyfikowany",
+        profileDefaultNameFormat: "Profil %d",
+        presetWeb: "Internet",
+        presetSocial: "Media społecznościowe",
+        presetDocs: "Dokumenty",
+        resize: "Zmień rozmiar",
+        resizeNone: "Bez zmian",
+        resizeMax: "Maksymalny bok",
+        resizeWidth: "Szerokość",
+        resizeHeight: "Wysokość",
+        resizeExact: "Niestandardowy",
+        exactStretch: "Rozciągnij",
+        exactFit: "Dopasuj",
+        exactFill: "Wypełnij",
+        height: "Wysokość",
+        watermark: "Znak wodny",
+        watermarkOff: "Wyłączony",
+        watermarkText: "Tekst",
+        watermarkLogo: "Logo",
+        watermarkBoth: "Tekst + logo",
+        watermarkTextPlaceholder: "Tekst znaku wodnego",
+        noLogo: "Brak logo",
+        chooseLogo: "Wybierz logo",
+        position: "Położenie",
+        topLeft: "Lewy górny róg",
+        topRight: "Prawy górny róg",
+        center: "Środek",
+        bottomLeft: "Lewy dolny róg",
+        bottomRight: "Prawy dolny róg",
+        opacity: "Krycie",
+        margin: "Margines",
+        scale: "Skala",
+        rename: "Zmień nazwę",
+        preview: "Podgląd",
+        outputName: "Nazwa wyjściowa",
+        background: "Tło",
+        backgroundTransparent: "Przezroczyste",
+        backgroundWhite: "Białe",
+        backgroundBlack: "Czarne",
+        preserveDate: "Zachowaj oryginalną datę modyfikacji",
+        saveInSubfolder: "Zapisuj w podfolderze „Converted”",
+        moreOptions: "Więcej opcji",
+        tooLarge: "Te wymiary są zbyt duże, aby bezpiecznie je przetworzyć. Wybierz mniejszy rozmiar.",
+        copySummary: "Kopiuj podsumowanie",
+        savedBytesFormat: "Oszczędzono %@",
+        grewBytesFormat: "Zwiększono o %@",
+        batchSavedFormat: "Zapisano obrazów: %d",
+        batchPartialFormat: "Zapisano: %d, niepowodzeń: %d",
+        batchSummaryHeaderFormat: "Zapisano: %d, niepowodzeń: %d",
+        batchSummaryItemFormat: "%@ → %@"
+    )
     static let zhHK = MediaImageConverterStrings(
         filesSelectedFormat: "已選取 %d 個檔案",
         profile: "設定檔",
