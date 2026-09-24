@@ -369,6 +369,7 @@ extension FeatureStrings {
             accessoryDescription: "顯示已連接的配件，並在電量降至20%時提醒一次。",
             connected: "已連接",
             lowBattery: "電量不足")
+        case .pl: return notchActivities(.enUS)
         case .zhHK: return NotchActivityStrings(
             timer: "計時器",
             timerDescription: "在Dynamic Island中使用計時器、秒錶和專注時段。",
