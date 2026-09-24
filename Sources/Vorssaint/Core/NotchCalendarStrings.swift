@@ -308,7 +308,29 @@ extension FeatureStrings {
             month: "月",
             emptyDay: "當天沒有行程",
             hasEvents: "有行程")
-        case .pl: return notchCalendar(.enUS)
+        case .pl: return NotchCalendarStrings(
+            title: "Kalendarz",
+            description: "Przeglądaj miesiąc i nadchodzące wydarzenia w Dynamic Island.",
+            permission: "Odczytuje kalendarze, aby wyświetlać nadchodzące wydarzenia. Wydarzenia pozostają na tym Macu.",
+            allow: "Zezwól na dostęp do kalendarza",
+            denied: "Zezwól na dostęp do kalendarza w Ustawieniach systemowych, aby wyświetlać wydarzenia.",
+            settings: "Otwórz Ustawienia systemowe",
+            empty: "Brak nadchodzących wydarzeń",
+            next: "Następne",
+            ongoing: "Trwa",
+            allDay: "Cały dzień",
+            untitled: "Wydarzenie bez nazwy",
+            openCalendar: "Otwórz Kalendarz",
+            week: "Następne 7 dni",
+            today: "Dzisiaj",
+            requestFailed: "Nie udało się poprosić o dostęp do kalendarza. Spróbuj ponownie.",
+            previousMonth: "Poprzedni miesiąc",
+            nextMonth: "Następny miesiąc",
+            previousWeek: "Poprzedni tydzień",
+            nextWeek: "Następny tydzień",
+            month: "Miesiąc",
+            emptyDay: "Brak wydarzeń tego dnia",
+            hasEvents: "Ma wydarzenia")
         case .zhHK: return NotchCalendarStrings(
             title: "日曆",
             description: "在Dynamic Island中瀏覽月曆及即將到來的行程。",
