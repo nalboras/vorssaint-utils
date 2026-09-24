@@ -73,7 +73,7 @@ enum AppLanguage: String, CaseIterable, Identifiable {
         }
 
         let matches: [(String, AppLanguage)] = [
-            ("pt", .ptBR), ("tr", .tr), ("ru", .ru), ("es", .es), ("de", .de), ("fr", .fr),
+            ("pt", .ptBR), ("pl", .pl), ("tr", .tr), ("ru", .ru), ("es", .es), ("de", .de), ("fr", .fr),
             ("it", .it), ("ja", .ja), ("ko", .ko), ("zh", .zhHans),
         ]
         for (prefix, language) in matches where preferred.hasPrefix(prefix) { return language }
@@ -93,6 +93,7 @@ final class L10n: ObservableObject {
     var s: Strings {
         switch language {
         case .enUS: return .enUS
+        case .pl: return .pl
         case .ptBR: return .ptBR
         case .tr: return .tr
         case .ru: return .ru
