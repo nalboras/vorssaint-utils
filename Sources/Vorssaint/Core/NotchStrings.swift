@@ -90,7 +90,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -961,6 +961,78 @@ extension NotchStrings {
         quickAccessRight: "右側"
     )
 
+
+    static let pl = NotchStrings(
+        title: "Dynamic Island",
+        enable: "Włącz Dynamic Island",
+        description: "Muzyka, sterowanie i codzienne narzędzia w jednym miejscu u góry ekranu. Funkcja jest opcjonalna — możesz ją wyłączyć i nadal korzystać z osobnych paneli.",
+        menuBarAccessHint: "Zezwól na korzystanie z Dostępności, aby Dynamic Island mogła pojawiać się na tym ekranie bez zasłaniania menu.",
+        display: "Ekran",
+        automatic: "Automatycznie",
+        builtIn: "Wbudowany ekran",
+        mainDisplay: "Główny ekran",
+        hover: "Otwieraj, gdy wskaźnik zatrzyma się nad Dynamic Island",
+        modules: "Co wyświetlać",
+        events: "Więcej opcji",
+        clipboardActivity: "Powiadamiaj po skopiowaniu",
+        captureActivity: "Pokazuj podglądy zrzutów ekranu tutaj",
+        privacy: "Skopiowana zawartość pozostaje prywatna do czasu otwarcia schowka. Te ustawienia dziedziczą konfigurację odpowiedniej funkcji.",
+        open: "Otwórz Dynamic Island",
+        collapse: "Zwiń",
+        pin: "Pozostaw otwarte",
+        unpin: "Zezwalaj na automatyczne zamykanie",
+        panel: "Otwórz panel aplikacji",
+        dropHint: "Upuść tutaj pliki",
+        empty: "Wybierz w ustawieniach Dynamic Island, co ma być wyświetlane.",
+        volume: "Głośność",
+        brightness: "Jasność",
+        battery: "Bateria",
+        onBattery: "Na baterii",
+        charging: "Ładowanie",
+        charged: "W pełni naładowana",
+        lowBattery: "Niski poziom baterii",
+        controls: "Sterowanie",
+        system: "System",
+        disabled: "Aby użyć tej funkcji tutaj, włącz odpowiednią funkcję.",
+        files: "Pliki",
+        hideInFullscreen: "Ukrywaj na pełnym ekranie",
+        showInCaptures: "Pokazuj na zrzutach ekranu i nagraniach",
+        clipboardWindow: "Otwieraj historię schowka w Dynamic Island",
+        tools: "Narzędzia",
+        size: "Rozmiar",
+        compact: "Kompaktowy",
+        spacious: "Przestronny",
+        hoverExpand: "Rozwijaj całkowicie po najechaniu",
+        shelfWindow: "Otwieraj półkę na pliki w Dynamic Island",
+        dragReveal: "Pokazuj miejsce docelowe podczas przeciągania",
+        captureControls: "Pokazuj sterowanie przechwytywaniem ekranu w Dynamic Island",
+        quickPanel: "Otwieraj panel szybkich narzędzi w Dynamic Island",
+        appPanel: "Otwieraj panel aplikacji w Dynamic Island",
+        idleContent: "Gdy nieaktywne",
+        idleNone: "Nic",
+        coverMenus: "Pokazuj nad menu",
+        coverMenusHint: "Pozostawia timer, muzykę i inne kompaktowe elementy aktywności na ekranie, gdy na pasku menu brakuje miejsca, zasłaniając menu obok kamery.",
+        controlShortcuts: "Sterowanie i skróty",
+        activity: "Aktywność",
+        playingMusic: "Pokazuj muzykę podczas odtwarzania",
+        custom: "Niestandardowy",
+        width: "Szerokość",
+        maximumHeight: "Maksymalna wysokość",
+        sizeHint: "Elementy sterowania pozostają kompaktowe. Dłuższe listy mogą zajmować do tej wysokości.",
+        hapticFeedback: "Haptyka",
+        hapticHint: "Delikatne stuknięcia podczas otwierania, przełączania sekcji lub zmiany minut timera na zgodnym gładziku.",
+        playbackPosition: "Pozycja odtwarzania",
+        musicHint: "Tutaj pojawiają się muzyka i elementy sterowania odtwarzaniem.",
+        music: "Muzyka",
+        captures: "Przechwytywanie",
+        customizeTools: "Dostosuj narzędzia",
+        switchSection: "Przełącz sekcję",
+        sectionsTitle: "Przeglądaj",
+        searchSections: "Znajdź sekcję",
+        sectionKeyboardHint: "Użyj klawiszy strzałek, a następnie naciśnij Return",
+        quickAccessLeft: "Lewo",
+        quickAccessRight: "Prawo"
+    )
     static let zhHK = NotchStrings(
         title: "Dynamic Island",
         enable: "啟用Dynamic Island",
