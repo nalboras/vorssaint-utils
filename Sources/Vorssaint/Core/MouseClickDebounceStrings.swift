@@ -26,7 +26,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -129,6 +129,14 @@ extension MouseClickDebounceStrings {
         windowCaption: "此時段內的重複點按會視為意外重複。"
     )
 
+
+    static let pl = MouseClickDebounceStrings(
+        title: "Filtr dodatkowych kliknięć",
+        caption: "Ignoruje szybkie, przypadkowe dodatkowe kliknięcia zużytych przycisków myszy, nie opóźniając zwykłych kliknięć.",
+        moreOptions: "Więcej opcji",
+        windowLabel: "Okno filtrowania",
+        windowCaption: "Powtórne kliknięcie w tym odstępie czasu jest traktowane jako przypadkowe."
+    )
     static let zhHK = MouseClickDebounceStrings(
         title: "點按防抖",
         caption: "忽略磨損滑鼠按鍵產生的快速多餘點按，不延遲正常點按。",
