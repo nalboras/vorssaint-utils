@@ -229,6 +229,7 @@ extension FeatureStrings {
             optimizeMedia: "最佳化媒體",
             optimizeDropHint: "將圖片或一部影片拖曳到動態島，再放到「最佳化媒體」上，選擇如何儲存副本。",
             resumeMedia: "返回媒體")
+        case .pl: return notchFiles(.enUS)
         case .zhHK: return NotchFilesStrings(
             archive: "製作 ZIP",
             archiveHint: "每個所選項目會儲存為個別的 ZIP。原始檔案保持不變。",
