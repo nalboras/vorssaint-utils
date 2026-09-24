@@ -60,7 +60,10 @@ extension FeatureStrings {
             title: "Dynamic Island手勢",
             description: "捲動以打開或關閉Dynamic Island，左右滑動以切換歌曲。",
             hint: "向下捲動以打開，在頂部列向上捲動以關閉。在音樂上左右滑動以切換歌曲。列表保留原有的捲動方式。")
-        case .pl: return notchGestures(.enUS)
+        case .pl: return NotchGestureStrings(
+            title: "Gesty Dynamic Island",
+            description: "Otwieraj i zamykaj Dynamic Island przez przewijanie oraz przesuwaj palcem, aby zmieniać utwory.",
+            hint: "Przewiń w dół, aby otworzyć. Przewiń w górę nad górnym wierszem, aby zamknąć. Przesuń palcem w lewo lub w prawo nad muzyką, aby zmienić utwór. Listy zachowują własny sposób przewijania.")
         case .zhHK: return NotchGestureStrings(
             title: "Dynamic Island手勢",
             description: "捲動以開啟或關閉Dynamic Island，左右滑動以切換歌曲。",
