@@ -64,7 +64,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -623,6 +623,52 @@ extension FanControlFeatureStrings {
         resumeAfterRestart: "重新開機或睡眠後恢復"
     )
 
+
+    static let pl = FanControlFeatureStrings(
+        title: "Sterowanie wentylatorami",
+        hubDescription: "Steruj wentylatorami ręcznie lub za pomocą krzywych temperatury, obserwując bieżące i docelowe obroty",
+        showInPanel: "Pokaż sterowanie wentylatorami w panelu",
+        settingsCaption: "Dodaje ręczne ustawianie obrotów wentylatorów i krzywe temperatury do panelu paska menu.",
+        fanNameFormat: "Wentylator %d",
+        rpmFormat: "%d obr./min",
+        allowControl: "Zezwól na sterowanie wentylatorami",
+        approvalCaption: "Zezwól Vorssaint na dostęp w Elementach logowania, aby używać chronionego sterownika wentylatorów.",
+        openSettings: "Otwórz Ustawienia systemowe",
+        noFans: "Ten Mac nie ma wentylatora, którym można sterować.",
+        unsupported: "Sterowanie wentylatorami nie jest dostępne na tym Macu.",
+        alreadyControlled: "Inny proces steruje wentylatorami. Najpierw przywróć sterowanie systemowe.",
+        failed: "Przywrócono sterowanie systemowe, ponieważ nie udało się zweryfikować żądanego trybu sterowania.",
+        safetyCaption: "Sterowanie pozostaje aktywne do czasu powrotu do trybu systemowego. Zostanie przywrócone automatycznie, jeśli aplikacja utraci połączenie, Mac przejdzie w stan uśpienia, odczyty czujników przestaną działać lub wzrośnie obciążenie termiczne.",
+        safetyStopped: "Przywrócono sterowanie systemowe, ponieważ sterowanie wentylatorami zostało przerwane.",
+        menuBarTitle: "Prędkość wentylatorów",
+        systemControl: "Systemowe",
+        manualControl: "Ręczne",
+        customCurve: "Krzywa",
+        mode: "Tryb sterowania",
+        coolingIntensity: "Prędkość wentylatorów",
+        currentRPMFormat: "Bieżące: %d obr./min",
+        targetRPMFormat: "Docelowe: %d obr./min",
+        applyManual: "Zastosuj sterowanie ręczne",
+        applyCurve: "Zastosuj krzywą wentylatorów",
+        returnToSystem: "Użyj sterowania systemowego",
+        temperatureUnavailable: "Wybrany czujnik temperatury przestał odpowiadać. Przywrócono sterowanie systemowe.",
+        curveUnavailable: "Wybrany czujnik temperatury nie jest dostępny na tym Macu.",
+        sensor: "Czujnik temperatury",
+        temperature: "Temperatura",
+        fanSpeed: "Prędkość wentylatorów",
+        addPoint: "Dodaj punkt",
+        addSensor: "Dodaj czujnik",
+        removePoint: "Usuń punkt",
+        removeSensor: "Usuń czujnik",
+        curveGraph: "Krzywa temperatury i prędkości wentylatorów",
+        averageSoC: "Średnia temperatura SoC",
+        hottestSoC: "Najwyższa temperatura SoC",
+        averageCPU: "Średnia temperatura CPU",
+        hottestCPU: "Najwyższa temperatura CPU",
+        hottestGPU: "Najwyższa temperatura GPU",
+        helperUnavailable: "Chroniony sterownik wentylatorów jest niedostępny. Zezwól Vorssaint w Elementach logowania, a następnie spróbuj ponownie.",
+        resumeAfterRestart: "Wznów po ponownym uruchomieniu lub wybudzeniu"
+    )
     static let zhHK = FanControlFeatureStrings(
         title: "風扇控制",
         hubDescription: "查看目前與目標轉速，並手動或依溫度曲線控制風扇",
