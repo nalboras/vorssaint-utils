@@ -151,6 +151,7 @@ extension FeatureStrings {
             unavailable: "此通知已無法執行此操作。",
             dismissSystemBanner: "收起系統通知",
             dismissSystemBannerHint: "在Dynamic Island中顯示片刻後關閉原通知。較長的提示音仍可能被截斷。")
+        case .pl: return notchNotifications(.enUS)
         case .zhHK: return NotchNotificationStrings(
             title: "通知",
             description: "在Dynamic Island中查看新的系統通知。",
