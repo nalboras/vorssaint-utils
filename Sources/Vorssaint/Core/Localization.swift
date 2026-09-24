@@ -25,9 +25,9 @@ enum AppLanguage: String, CaseIterable, Identifiable {
     var id: String { rawValue }
 
     /// Whether this language puts a distinct form between one and many. Only
-    /// Russian, of the thirteen: two through four take a form of their own,
+    /// Russian and Polish use a distinct middle form: two through four take a form of their own,
     /// so "2 файла" and not "2 файлов".
-    var usesFewCountForm: Bool { self == .ru }
+    var usesFewCountForm: Bool { self == .ru || self == .pl }
 
     /// The language's own name, shown in its own script, the way macOS lists them.
     var displayName: String {
