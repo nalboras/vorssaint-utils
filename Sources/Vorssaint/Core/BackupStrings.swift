@@ -189,7 +189,7 @@ extension BackupFeatureStrings {
 
     static let pl = BackupFeatureStrings(
         title: "Kopia zapasowa",
-        description: "Przenieś konfigurację na innego Maca: wyeksportuj wszystkie ustawienia do pliku i zaimportuj je na drugim Macu. Notatki ze Schowka podręcznego, historia schowka, elementy półki i uprawnienia systemowe nigdy nie opuszczają tego Maca.",
+        description: "Przenieś konfigurację na innego Maca: wyeksportuj wszystkie ustawienia do pliku i zaimportuj je na drugim Macu. notatki w Scratchpadzie, historia schowka, elementy półki i uprawnienia systemowe nigdy nie opuszczają tego Maca.",
         exportButton: "Eksportuj ustawienia…",
         importButton: "Importuj ustawienia…",
         exported: "Kopia zapasowa została zapisana",
