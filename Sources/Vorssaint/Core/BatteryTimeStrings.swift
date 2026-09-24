@@ -24,7 +24,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -103,6 +103,12 @@ extension BatteryTimeFeatureStrings {
         calculating: "正在計算…"
     )
 
+
+    static let pl = BatteryTimeFeatureStrings(
+        title: "Pozostały czas pracy baterii",
+        systemEstimate: "Szacunek systemu",
+        calculating: "Obliczanie…"
+    )
     static let zhHK = BatteryTimeFeatureStrings(
         title: "電池剩餘時間",
         systemEstimate: "系統估算",
