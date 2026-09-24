@@ -284,7 +284,7 @@ struct PanelSection<Content: View>: View {
     private var editButton: some View {
         Button(action: toggleEditing) {
             if isEditing {
-                Label("OK", systemImage: "checkmark")
+                Label(l10n.s.uninstallerDoneTitle, systemImage: "checkmark")
                     .font(.system(size: 10.5, weight: .bold))
                     .labelStyle(.titleAndIcon)
                     .padding(.horizontal, 8)
