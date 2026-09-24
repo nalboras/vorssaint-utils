@@ -229,7 +229,23 @@ extension FeatureStrings {
             optimizeMedia: "最佳化媒體",
             optimizeDropHint: "將圖片或一部影片拖曳到動態島，再放到「最佳化媒體」上，選擇如何儲存副本。",
             resumeMedia: "返回媒體")
-        case .pl: return notchFiles(.enUS)
+        case .pl: return NotchFilesStrings(
+            archive: "Utwórz ZIP",
+            archiveHint: "Każdy zaznaczony element zostanie zapisany jako osobny plik ZIP. Oryginały pozostaną bez zmian.",
+            saved: "Zapisano",
+            downloadsTitle: "Pobrane",
+            downloadsDescription: "Pokazuj pliki trafiające do wybranego folderu bezpośrednio w Dynamic Island.",
+            downloadsHint: "Wybierz folder, do którego przeglądarka zapisuje pobrane pliki. Tylko ten folder jest monitorowany.",
+            chooseFolder: "Wybierz folder…",
+            folderUnavailable: "Ten folder jest niedostępny. Wybierz go ponownie, aby przywrócić dostęp.",
+            waiting: "Brak plików w tym folderze",
+            inProgress: "Pobieranie",
+            totalUnknown: "Łączny rozmiar niedostępny",
+            completed: "Pobieranie zakończone",
+            clearFolder: "Zapomnij folder",
+            optimizeMedia: "Optymalizuj multimedia",
+            optimizeDropHint: "Przeciągnij obrazy lub jeden film na wyspę, a następnie upuść je na „Optymalizuj multimedia”, aby wybrać sposób zapisania kopii.",
+            resumeMedia: "Wróć do multimediów")
         case .zhHK: return NotchFilesStrings(
             archive: "製作 ZIP",
             archiveHint: "每個所選項目會儲存為個別的 ZIP。原始檔案保持不變。",
