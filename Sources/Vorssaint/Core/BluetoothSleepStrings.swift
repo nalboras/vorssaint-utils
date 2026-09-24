@@ -31,7 +31,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -158,6 +158,16 @@ extension BluetoothSleepStrings {
         unsupported: "這台 Mac 沒有藍牙控制器。"
     )
 
+
+    static let pl = BluetoothSleepStrings(
+        pageTitle: "Bluetooth podczas uśpienia",
+        hubDescription: "Wyłącza Bluetooth podczas uśpienia Maca, dzięki czemu słuchawki schowane w torbie nie będą się z nim łączyć.",
+        enable: "Wyłączaj Bluetooth podczas uśpienia Maca",
+        enableCaption: "Jeśli Bluetooth był już wyłączony przed uśpieniem, pozostanie wyłączony po wybudzeniu.",
+        restoreToggle: "Włączaj Bluetooth po wybudzeniu Maca",
+        restoreCaption: "Tylko wtedy, gdy to Vorssaint wyłączył Bluetooth.",
+        unsupported: "Ten Mac nie ma kontrolera Bluetooth."
+    )
     static let zhHK = BluetoothSleepStrings(
         pageTitle: "睡眠時的藍牙",
         hubDescription: "Mac 睡眠期間關閉藍牙，袋裡的耳機不會再自動連上來。",
