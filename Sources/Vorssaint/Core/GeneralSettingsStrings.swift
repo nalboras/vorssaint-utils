@@ -42,7 +42,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -313,6 +313,28 @@ extension GeneralSettingsStrings {
         sectionToggles: "深色模式、將麥克風靜音等一鍵操作。"
     )
 
+
+    static let pl = GeneralSettingsStrings(
+        pageDescription: "Sposób uruchamiania i wygląd Vorssaint oraz zawartość jego panelu na pasku menu.",
+        appearanceCaption: "Dotyczy własnych okien i paneli Vorssaint, a nie całego Maca.",
+        launchAtLoginCaption: "Uruchamia się automatycznie przy każdym włączeniu Maca.",
+        liquidGlassCaption: "Przezroczyste panele przypominające szkło.",
+        panelIntro: "Kliknij ikonę Vorssaint na pasku menu, aby otworzyć panel. Jego karty pojawiają się w tej kolejności.",
+        panelReorderHint: "Przeciągnij, aby zmienić kolejność. Wyłącz to, czego nie potrzebujesz.",
+        iconMissingTitle: "Nie możesz znaleźć ikony?",
+        iconMissingCaption: "Przy zatłoczonym pasku menu ikona może być ukryta, szczególnie na Macach z wycięciem.",
+        sectionKeepAwake: "Utrzymuje Maca aktywnego tak długo, jak chcesz.",
+        sectionDisplays: "Jasność ekranów.",
+        sectionMixer: "Głośność każdej aplikacji, po jednym suwaku.",
+        sectionSystem: "Procesor, układ graficzny i pamięć — szybki podgląd.",
+        sectionNetwork: "Prędkość internetu i aplikacje, które z niego korzystają.",
+        sectionDisks: "Wolne miejsce i aktywność dysków.",
+        sectionPower: "Bateria, ładowanie i zużycie energii.",
+        sectionFanControl: "Prędkość wentylatorów i własna krzywa chłodzenia.",
+        sectionUtilities: "Zrzuty ekranu, oczyszczanie, aktualizacje i inne narzędzia.",
+        sectionControls: "Sterowanie myszą, klawiaturą i oknami.",
+        sectionToggles: "Jednym kliknięciem włączaj tryb ciemny, wyciszaj mikrofon i wykonuj inne działania."
+    )
     static let zhHK = GeneralSettingsStrings(
         pageDescription: "Vorssaint 的啟動方式、外觀，以及選單列面板顯示的內容。",
         appearanceCaption: "只影響 Vorssaint 自己的視窗和面板，不影響整部 Mac。",
