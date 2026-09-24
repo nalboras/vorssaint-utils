@@ -308,6 +308,7 @@ extension FeatureStrings {
             month: "月",
             emptyDay: "當天沒有行程",
             hasEvents: "有行程")
+        case .pl: return notchCalendar(.enUS)
         case .zhHK: return NotchCalendarStrings(
             title: "日曆",
             description: "在Dynamic Island中瀏覽月曆及即將到來的行程。",
