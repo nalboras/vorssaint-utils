@@ -107,6 +107,7 @@ struct SettingsView: View {
             activeSearchIndex = nil
             ensureVisiblePage()
         }
+        .environment(\.locale, l10n.language.formattingLocale())
     }
 
     /// macOS 27 backs the pinned sidebar search field with a hard top scroll
