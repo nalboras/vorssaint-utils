@@ -92,7 +92,7 @@ struct WhatsAppDownloadsSettings: View {
             Text(String(format: text.firstMessageFormat, manager.eligibleCount))
         }
         .alert(organizerText.invalidDestination, isPresented: $showingInvalidDestination) {
-            Button("OK", role: .cancel) {}
+            Button(l10n.s.uninstallerDoneTitle, role: .cancel) {}
         }
     }
 
