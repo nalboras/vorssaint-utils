@@ -89,6 +89,7 @@ struct ShelfPromiseDeliveryStrings {
                 fullTitle: "临时搁板已满",
                 fullBody: "附件已保存，但临时搁板已没有空间。",
                 okButton: "好")
+        case .pl: return localized(.enUS)
         case .zhTW, .zhHK:
             return .init(
                 failedTitle: "無法加入附件",
