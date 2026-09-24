@@ -31,7 +31,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -182,6 +182,18 @@ extension CameraPreviewFeatureStrings {
         permExplain: "只在預覽視窗中顯示相機畫面，讓你在通話前確認自己的狀態。不會錄製任何內容，也不會離開你的 Mac。"
     )
 
+
+    static let pl = CameraPreviewFeatureStrings(
+        pageTitle: "Podgląd kamery",
+        hubDescription: "Otwiera pływające okno z podglądem z kamery",
+        panelCaption: "Sprawdź swój obraz przed rozmową",
+        openButton: "Otwórz podgląd",
+        cameraMenuLabel: "Kamera",
+        deniedMessage: "Dostęp do kamery dla Vorssaint jest wyłączony w Ustawieniach systemowych.",
+        noCameraMessage: "Nie wykryto kamery",
+        permName: "Kamera",
+        permExplain: "Pokazuje obraz z kamery tylko w oknie podglądu, aby można było sprawdzić swój wygląd przed rozmową. Nic nie jest nagrywane ani wysyłane poza Maca."
+    )
     static let zhHK = CameraPreviewFeatureStrings(
         pageTitle: "相機預覽",
         hubDescription: "打開一面顯示相機畫面的浮動鏡子",
