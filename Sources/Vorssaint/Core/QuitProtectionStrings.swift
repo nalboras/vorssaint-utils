@@ -69,7 +69,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -496,6 +496,41 @@ extension QuitProtectionStrings {
         controlKey: "Control"
     )
 
+
+    static let pl = QuitProtectionStrings(
+        name: "Ochrona przed kończeniem i zamykaniem",
+        description: "Chroni ⌘Q i ⌘W przed przypadkowym użyciem",
+        intro: "Konfiguruj każdy skrót niezależnie. Oryginalne działanie zostanie wykonane dopiero po wybranym potwierdzeniu.",
+        enabled: "Chroń ten skrót",
+        enabledCaption: "Pozostałe skróty z klawiszem Command nadal działają normalnie.",
+        mode: "Sposób potwierdzania",
+        hold: "Przytrzymaj, aby potwierdzić",
+        doublePress: "Naciśnij dwukrotnie",
+        extraModifier: "Wymagaj dodatkowego klawisza modyfikującego",
+        holdDuration: "Czas przytrzymania",
+        doublePressInterval: "Odstęp między naciśnięciami",
+        modifier: "Dodatkowy klawisz modyfikujący",
+        appScope: "Aplikacje",
+        allApps: "Wszystkie aplikacje",
+        selectedOnly: "Tylko wybrane aplikacje",
+        allExceptSelected: "Wszystkie oprócz wybranych",
+        exceptions: "Wyjątki",
+        noExceptions: "Nie wybrano aplikacji",
+        addApp: "Dodaj aplikację…",
+        feedback: "Pokazuj potwierdzenie wizualne",
+        accessibilityCaption: "Ochrona korzysta z Dostępności, aby globalnie obserwować tylko ⌘Q i ⌘W.",
+        holdQuitHUDFormat: "Przytrzymaj %@, aby zakończyć",
+        holdCloseHUDFormat: "Przytrzymaj %@, aby zamknąć",
+        doubleQuitHUDFormat: "Naciśnij %@ ponownie, aby zakończyć",
+        doubleCloseHUDFormat: "Naciśnij %@ ponownie, aby zamknąć",
+        extraQuitHUDFormat: "Użyj %@, aby zakończyć",
+        extraCloseHUDFormat: "Użyj %@, aby zamknąć",
+        cancelHint: "Esc anuluje",
+        releaseHint: "Puść, aby potwierdzić",
+        shiftKey: "Shift",
+        optionKey: "Option",
+        controlKey: "Control"
+    )
     static let zhHK = QuitProtectionStrings(
         name: "結束與關閉保護",
         description: "防止誤按 ⌘Q 和 ⌘W",
