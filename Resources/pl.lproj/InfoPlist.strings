@@ -1,0 +1,11 @@
+"NSAppleEventsUsageDescription" = "Vorssaint używa automatyzacji do przenoszenia plików, wysyłania elementów do Kosza, otwierania żądanych poleceń i sterowania odtwarzaniem w aplikacjach multimedialnych.";
+"NSAudioCaptureUsageDescription" = "Vorssaint używa dźwięku poszczególnych aplikacji do regulowania ich głośności w mikserze, wyświetlania pasków muzyki w Dynamic Island oraz dodawania dźwięku Maca do nagrań ekranu. Żadne dane nie opuszczają Maca.";
+"NSBluetoothAlwaysUsageDescription" = "Vorssaint używa Bluetooth wyłącznie do odczytywania poziomu baterii podłączonych urządzeń peryferyjnych. Żadne dane nie opuszczają Maca.";
+"NSMicrophoneUsageDescription" = "Vorssaint używa mikrofonu podczas nagrywania ekranu. Dźwięk pozostaje na Macu, chyba że zdecydujesz się utworzyć tymczasowy link.";
+"NSCalendarsFullAccessUsageDescription" = "Pokazuj nadchodzące wydarzenia w Dynamic Island. Wydarzenia z kalendarza pozostają na tym Macu.";
+"NSCameraUsageDescription" = "Vorssaint pokazuje obraz z kamery tylko w otwartym przez Ciebie oknie podglądu. Nic nie jest nagrywane ani wysyłane poza Maca.";
+"NSDownloadsFolderUsageDescription" = "Vorssaint sprawdza lokalne metadane w folderze Pobrane, aby przeglądać, porządkować lub przenosić do Kosza tylko potwierdzone pliki WhatsApp wybrane przez Ciebie.";
+"NSDesktopFolderUsageDescription" = "Vorssaint porządkuje potwierdzone pobrane pliki WhatsApp w wybranym przez Ciebie folderze docelowym.";
+"NSDocumentsFolderUsageDescription" = "Vorssaint porządkuje potwierdzone pobrane pliki WhatsApp w wybranym przez Ciebie folderze docelowym.";
+"NSNetworkVolumesUsageDescription" = "Vorssaint porządkuje potwierdzone pobrane pliki WhatsApp w wybranym przez Ciebie folderze docelowym.";
+"NSRemovableVolumesUsageDescription" = "Vorssaint porządkuje potwierdzone pobrane pliki WhatsApp w wybranym przez Ciebie folderze docelowym.";
