@@ -799,6 +799,7 @@ extension FeatureStrings {
             scratchpadSummary: "自動儲存的快速筆記。",
             agentsSummary: "Claude Code 和 Codex 的用量、限額和費用。"
         )
+        case .pl: return notchEditor(.enUS)
         case .zhHK: return NotchEditorStrings(
             layout: "佈局",
             content: "內容",
