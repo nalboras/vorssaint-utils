@@ -26,7 +26,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -129,6 +129,14 @@ extension WindowPreviewExclusionStrings {
         caption: "當這些 App 之一位於前景時，視窗縮圖會暫停更新。"
     )
 
+
+    static let pl = WindowPreviewExclusionStrings(
+        sectionTitle: "Miniatury okien",
+        listTitle: "Wstrzymuj w tych aplikacjach",
+        addButton: "Dodaj aplikację…",
+        removeButton: "Usuń",
+        caption: "Miniatury okien są wstrzymywane, gdy jedna z tych aplikacji jest na pierwszym planie."
+    )
     static let zhHK = WindowPreviewExclusionStrings(
         sectionTitle: "視窗縮圖",
         listTitle: "在這些 App 中暫停",
