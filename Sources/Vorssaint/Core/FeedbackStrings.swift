@@ -50,7 +50,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -441,6 +441,38 @@ extension FeedbackStrings {
         diagnosticsChannelLabel: "更新頻道"
     )
 
+
+    static let pl = FeedbackStrings(
+        sectionTitle: "Opinie i uwagi",
+        sectionCaption: "Wyślij zgłoszenie błędu lub pomysł na funkcję bezpośrednio do osoby rozwijającej Vorssaint.",
+        openButton: "Wyślij opinię",
+        windowTitle: "Wyślij opinię",
+        bugTitle: "Błąd",
+        featureTitle: "Pomysł na funkcję",
+        messageLabel: "Co chcesz przekazać?",
+        bugPlaceholder: "Opisz, co się wydarzyło i czego się spodziewałeś.",
+        featurePlaceholder: "Opisz pomysł i wyjaśnij, co by ułatwił.",
+        charactersFormat: "%d z 2000 znaków",
+        includeDiagnostics: "Dołącz informacje techniczne",
+        includeDiagnosticsCaption: "Dodaje tylko widoczne poniżej informacje techniczne. Nie zawiera logów.",
+        whatSentTitle: "Co zostanie wysłane",
+        whatSentBasic: "Wybrana kategoria i wpisany tekst.",
+        whatSentDiagnostics: "Wymienione poniżej informacje techniczne.",
+        privacyNote: "Nie są dołączane imię i nazwisko, konto, adres e-mail, identyfikator urządzenia, logi, zrzuty ekranu, pliki ani zawartość schowka. Publiczny adres IP jest tymczasowo przetwarzany w celu ochrony przed nadużyciami i nie jest powiązany ze zgłoszeniem.",
+        retentionNote: "Po dostarczeniu tekst pozostaje w prywatnych kanałach wsparcia do czasu usunięcia go przez operatora usługi. Niedostarczona kopia jest trwale usuwana po 7 dniach.",
+        sendButton: "Wyślij opinię",
+        sending: "Wysyłanie…",
+        sentTitle: "Opinia wysłana",
+        sentCaption: "Dziękujemy. Nie wysłano danych kontaktowych, więc nie otrzymasz bezpośredniej odpowiedzi.",
+        unavailableError: "Nie udało się połączyć. Sprawdź połączenie z internetem i spróbuj ponownie.",
+        rateLimitError: "Z tej sieci wysłano zbyt wiele zgłoszeń. Spróbuj ponownie później.",
+        genericError: "Nie udało się teraz wysłać opinii.",
+        done: "Gotowe",
+        commandBug: "Zgłoś błąd",
+        commandFeature: "Zaproponuj funkcję",
+        commandSubtitle: "Wyślij opinię",
+        diagnosticsChannelLabel: "Kanał aktualizacji"
+    )
     static let zhHK = FeedbackStrings(
         sectionTitle: "意見回饋",
         sectionCaption: "將錯誤報告或功能建議直接傳送給 Vorssaint 的維護者。",
