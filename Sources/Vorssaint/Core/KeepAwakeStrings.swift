@@ -421,6 +421,28 @@ extension KeepAwakeAutomationStrings {
         automationCaptionAll: "僅當所有選定條件都符合時才啟動。"
     )
 
+    static let pl = KeepAwakeAutomationStrings(
+        automationSection: "Automatyzacja",
+        automationCaption: "Uruchamiaj, gdy aktywny jest dowolny wybrany warunek.",
+        automationOff: "Wyłączone",
+        externalDisplayToggle: "Monitor zewnętrzny",
+        externalDisplayActive: "Aktywne, gdy podłączony jest monitor zewnętrzny",
+        powerToggle: "Zasilanie",
+        powerActive: "Aktywne, gdy Mac jest podłączony do zasilania",
+        runningAppsToggle: "Aplikacje",
+        runningAppsActive: "Aktywne, gdy działa wybrana aplikacja",
+        runningAppsListTitle: "Wybrane aplikacje",
+        runningAppsAddButton: "Dodaj aplikację…",
+        runningAppsRemoveButton: "Usuń",
+        runningAppsListCaption: "Nie usypiaj, gdy którakolwiek z tych aplikacji jest otwarta, nawet w tle.",
+        automationActive: "Aktywne, ponieważ spełniony jest automatyczny warunek",
+        pauseWhenLockedToggle: "Wstrzymuj, gdy Mac jest zablokowany",
+        pauseWhenLockedCaption: "Podczas blokady obowiązują normalne zasady uśpienia, a po odblokowaniu pozostała część sesji jest wznawiana.",
+        matchAny: "Dowolny",
+        matchAll: "Wszystkie",
+        automationCaptionAll: "Uruchamiaj tylko wtedy, gdy aktywne są wszystkie wybrane warunki."
+    )
+
     static let zhHK = KeepAwakeAutomationStrings(
         automationSection: "自動化",
         automationCaption: "任何所選條件符合時自動啟動。",
