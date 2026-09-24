@@ -62,7 +62,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -585,6 +585,49 @@ extension AppUpdateStrings {
         onlineUnavailable: "無法完成線上檢查。其他結果仍會顯示。"
     )
 
+
+    static let pl = AppUpdateStrings(
+        pageTitle: "Aktualizacje aplikacji",
+        hubDescription: "Znajduj i instaluj aktualizacje używanych aplikacji",
+        caption: "Sprawdza, czy aplikacje na tym Macu mają nowsze wersje, i pomaga dokończyć każdą aktualizację z jej oryginalnego źródła.",
+        panelCaption: "Sprawdź, które aplikacje mają nowszą wersję",
+        checkNow: "Sprawdź teraz",
+        checking: "Sprawdzanie",
+        lastCheckFormat: "Ostatnie sprawdzenie %@",
+        neverChecked: "Jeszcze nie sprawdzano",
+        upToDate: "Nie znaleziono aktualizacji",
+        partialUpToDate: "W tym częściowym sprawdzeniu nie znaleziono aktualizacji",
+        coverageNote: "Sprawdza oryginalne źródła zainstalowanych aplikacji oraz publiczny katalog. Aktualizacje są instalowane z ich oryginalnych źródeł.",
+        selectAll: "Zaznacz wszystko",
+        clearSelection: "Wyczyść zaznaczenie",
+        updateSelectedFormat: "Aktualizuj %d",
+        updateOne: "Aktualizuj",
+        openAppStore: "Otwórz App Store",
+        appStoreBadge: "App Store",
+        storeHint: "Otwiera App Store, w którym instalowana jest ta aktualizacja",
+        frequencyLabel: "Sprawdzaj w tle",
+        frequencyOff: "Wyłączone",
+        frequencyDaily: "Codziennie",
+        frequencyWeekly: "Co tydzień",
+        nextCheckFormat: "Następne sprawdzenie %@",
+        notifyToggle: "Powiadamiaj o dostępnych aktualizacjach",
+        includeStoreToggle: "Uwzględniaj aplikacje z App Store",
+        includeStoreCaption: "Sprawdza wersje z App Store z uwzględnieniem regionu tego Maca. Te aktualizacje instaluje Apple.",
+        packageMissing: "Homebrew nie jest zainstalowane, więc na razie nie można stąd aktualizować aplikacji.",
+        notificationBodyFormat: "%@ aplikacji ma nowszą wersję.",
+        notificationBodyOne: "Jedna aplikacja ma nowszą wersję.",
+        showInPanel: "Pokaż w panelu",
+        homebrewBadge: "Homebrew",
+        sourcesTitle: "Źródła",
+        includeHomebrewToggle: "Uwzględniaj aplikacje Homebrew",
+        onlineBadge: "Online",
+        openApp: "Otwórz",
+        openAppHint: "Otwiera aplikację, aby jej własny mechanizm aktualizacji mógł dokończyć pracę",
+        includeOnlineToggle: "Uwzględniaj inne zainstalowane aplikacje",
+        includeOnlineCaption: "Gdy jest to możliwe, sprawdza aktualizacje bezpośrednio u twórców aplikacji, a następnie korzysta z publicznego katalogu. Aktualizację instaluje własny mechanizm aplikacji.",
+        incompleteCheck: "Sprawdzanie nie zostało ukończone",
+        onlineUnavailable: "Nie udało się ukończyć sprawdzania online. Pozostałe wyniki są nadal wyświetlane."
+    )
     static let zhHK = AppUpdateStrings(
         pageTitle: "App 更新",
         hubDescription: "尋找並安裝你的 App 更新",
