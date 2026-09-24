@@ -27,7 +27,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -142,6 +142,15 @@ extension FinderRenameFeatureStrings {
         shortcutLabel: "重新命名"
     )
 
+
+    static let pl = FinderRenameFeatureStrings(
+        pageTitle: "Skróty Findera",
+        hubTitle: "Skrót zmiany nazwy",
+        hubDescription: "Zmień nazwę zaznaczonego pliku lub folderu wybranym przez siebie skrótem.",
+        enableLabel: "Używaj skrótu do zmiany nazwy",
+        caption: "Skrót działa tylko w Finderze i nie wpływa na pola tekstowe. F2 działa jako zwykły klawisz; na klawiaturach, na których steruje jasnością, użyj Fn-F2 albo wybierz inny skrót.",
+        shortcutLabel: "Zmień nazwę"
+    )
     static let zhHK = FinderRenameFeatureStrings(
         pageTitle: "Finder 快捷鍵",
         hubTitle: "重新命名快捷鍵",
