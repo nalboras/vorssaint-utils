@@ -59,7 +59,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -145,6 +145,11 @@ extension KeepAwakeDisplaySleepStrings {
         allowDisplaySleepCaption: "Mac 保持喚醒，顯示器仍會依正常時間關閉。"
     )
 
+
+    static let pl = KeepAwakeDisplaySleepStrings(
+        allowDisplaySleep: "Zezwalaj na uśpienie ekranu",
+        allowDisplaySleepCaption: "Pozwala Macowi pozostawać aktywnym, podczas gdy ekran korzysta z normalnego czasu uśpienia."
+    )
     static let zhHK = KeepAwakeDisplaySleepStrings(
         allowDisplaySleep: "允許顯示器進入睡眠",
         allowDisplaySleepCaption: "Mac 保持喚醒，顯示器仍會按正常時間關閉。"
