@@ -25,7 +25,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -116,6 +116,13 @@ extension ClipboardIgnoredAppsStrings {
         caption: "在這些 App 裡複製的內容都不會存進歷史。"
     )
 
+
+    static let pl = ClipboardIgnoredAppsStrings(
+        listTitle: "Aplikacje pomijane",
+        addButton: "Dodaj aplikację…",
+        removeButton: "Usuń",
+        caption: "Nic, co skopiujesz w tych aplikacjach, nie zostanie zapisane w historii schowka."
+    )
     static let zhHK = ClipboardIgnoredAppsStrings(
         listTitle: "不記錄的 App",
         addButton: "加入 App…",
