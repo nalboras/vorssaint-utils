@@ -132,6 +132,7 @@ struct MenuPanelView: View {
         .onChange(of: focusedSection) { _, section in
             if let section { selectedSection = section }
         }
+        .environment(\.locale, l10n.language.formattingLocale())
     }
 
     private var monitorNeeds: SystemMonitorPanelNeeds {
