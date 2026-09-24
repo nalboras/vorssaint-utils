@@ -33,7 +33,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -186,6 +186,18 @@ extension BackupFeatureStrings {
         invalidFile: "此檔案不是有效的 Vorssaint 備份。"
     )
 
+
+    static let pl = BackupFeatureStrings(
+        title: "Kopia zapasowa",
+        description: "Przenieś konfigurację na innego Maca: wyeksportuj wszystkie ustawienia do pliku i zaimportuj je na drugim Macu. Notatki ze Schowka podręcznego, historia schowka, elementy półki i uprawnienia systemowe nigdy nie opuszczają tego Maca.",
+        exportButton: "Eksportuj ustawienia…",
+        importButton: "Importuj ustawienia…",
+        exported: "Kopia zapasowa została zapisana",
+        importConfirmTitle: "Importować te ustawienia?",
+        importConfirmBody: "Bieżące ustawienia zostaną zastąpione ustawieniami z pliku, a aplikacja zostanie ponownie uruchomiona. Żadne inne dane na tym Macu nie zostaną zmienione.",
+        importAction: "Importuj i uruchom ponownie",
+        invalidFile: "Ten plik nie jest prawidłową kopią zapasową Vorssaint."
+    )
     static let zhHK = BackupFeatureStrings(
         title: "備份",
         description: "把你的設定帶到另一台 Mac:將所有偏好設定匯出為檔案並在那裡匯入。草稿板入面嘅筆記文字、剪貼板歷史、暫存架項目和系統權限永遠不會離開這台 Mac。",
