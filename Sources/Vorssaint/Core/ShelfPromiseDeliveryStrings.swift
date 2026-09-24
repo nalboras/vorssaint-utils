@@ -89,7 +89,13 @@ struct ShelfPromiseDeliveryStrings {
                 fullTitle: "临时搁板已满",
                 fullBody: "附件已保存，但临时搁板已没有空间。",
                 okButton: "好")
-        case .pl: return localized(.enUS)
+        case .pl:
+            return .init(
+                failedTitle: "Nie udało się dodać załącznika",
+                failedBody: "Plik nie został do końca zapisany na półce.",
+                fullTitle: "Półka jest pełna",
+                fullBody: "Załącznik został zapisany, ale na półce nie ma już miejsca.",
+                okButton: "OK")
         case .zhTW, .zhHK:
             return .init(
                 failedTitle: "無法加入附件",
