@@ -25,7 +25,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -116,6 +116,13 @@ extension WindowMaximizerExclusionStrings {
         caption: "在這些 App 中，綠色按鈕會保留 macOS 原本的行為，遊戲、模擬器和影片播放器仍可進入全螢幕。"
     )
 
+
+    static let pl = WindowMaximizerExclusionStrings(
+        listTitle: "Zachowuj pełny ekran w tych aplikacjach",
+        addButton: "Dodaj aplikację…",
+        removeButton: "Usuń",
+        caption: "W tych aplikacjach zielony przycisk zachowuje działanie macOS, dzięki czemu gry, emulatory i odtwarzacze wideo nadal mogą przechodzić do pełnego ekranu."
+    )
     static let zhHK = WindowMaximizerExclusionStrings(
         listTitle: "在這些 App 中保留全螢幕",
         addButton: "加入 App…",
