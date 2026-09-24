@@ -29,7 +29,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -168,6 +168,17 @@ extension SwitcherAppRulesStrings {
         caption: "選擇每個 App 的顯示方式。沒有規則的 App 使用上方選項。"
     )
 
+
+    static let pl = SwitcherAppRulesStrings(
+        listTitle: "Reguły dla aplikacji",
+        addButton: "Dodaj aplikację…",
+        removeButton: "Usuń",
+        behaviorLabel: "Zachowanie przełącznika",
+        showWithoutWindows: "Pokaż bez okien",
+        windowsOnly: "Tylko okna",
+        hidden: "Nigdy nie pokazuj",
+        caption: "Wybierz sposób wyświetlania każdej aplikacji. Aplikacje bez własnej reguły korzystają z ustawienia powyżej."
+    )
     static let zhHK = SwitcherAppRulesStrings(
         listTitle: "各 App 規則",
         addButton: "加入 App…",
