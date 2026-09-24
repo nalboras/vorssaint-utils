@@ -44,7 +44,7 @@ enum AlertSoundStrings {
         // Apple's own loctable keeps the English names for these
         // languages too, rather than translating them.
         case .ja, .ko, .zhHans, .zhTW, .zhHK: return enUS
-        case .pl: return enUS
+        case .pl: return pl
         }
     }
 
@@ -165,6 +165,23 @@ enum AlertSoundStrings {
         "Sosumi": "Sonumi",
         "Submarine": "Submersible",
         "Tink": "Boop",
+    ]
+
+    private static let pl: [String: String] = [
+        "Basso": "Niski",
+        "Blow": "Podmuch",
+        "Bottle": "Butelka",
+        "Frog": "Żaba",
+        "Funk": "Funk",
+        "Glass": "Szkło",
+        "Hero": "Bohater",
+        "Morse": "Morse",
+        "Ping": "Sonar",
+        "Pop": "Bańka",
+        "Purr": "Mruczenie",
+        "Sosumi": "Sonumi",
+        "Submarine": "Łódź podwodna",
+        "Tink": "Dzwonek",
     ]
 
     private static let it: [String: String] = [
