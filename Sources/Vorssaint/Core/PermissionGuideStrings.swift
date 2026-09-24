@@ -38,7 +38,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -203,6 +203,19 @@ extension PermissionGuideStrings {
         relaunch: "重新啟動以套用"
     )
 
+
+    static let pl = PermissionGuideStrings(
+        title: "Jeszcze jeden krok",
+        stepOpen: "macOS otworzył Ustawienia systemowe na właściwej liście.",
+        stepToggle: "Włącz Vorssaint na tej liście.",
+        stepReturn: "Wróć tutaj. Karta wykryje nadanie uprawnienia automatycznie.",
+        waiting: "Oczekiwanie na uprawnienie…",
+        granted: "Uprawnienie przyznane!",
+        closeHelp: "Zamknij",
+        staleHint: "Jest już włączone na tej liście? Ten wpis pochodzi z wcześniejszej kopii aplikacji. Zacznij od początku, aby zastąpić go aktualnym wpisem.",
+        startOver: "Zacznij od początku",
+        relaunch: "Uruchom ponownie, aby zastosować"
+    )
     static let zhHK = PermissionGuideStrings(
         title: "只差一步",
         stepOpen: "macOS 已開啟系統設定的對應清單。",
