@@ -36,7 +36,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -55,5 +55,23 @@ extension PortManagerFeatureStrings {
     static let ko = PortManagerFeatureStrings(title: "포트 관리자", filter: "포트, 프로세스 또는 PID로 필터링", openFormat: "%d개 열림", empty: "수신 대기 중인 포트가 없습니다", emptyHint: "새로 고치거나 검색어를 변경해 보세요.", listeningCaption: "내 수신 대기 포트", kill: "종료", forceKill: "강제 종료", loadFailed: "수신 대기 포트를 확인할 수 없습니다. 새로 고쳐 보세요.", refresh: "새로 고침", terminateFormat: "%@을(를) 종료할까요?", terminateMessageFormat: "PID %2$d을(를) 종료하여 포트 %1$d을(를) 닫습니다.", hubDescription: "활성 수신 대기 포트를 확인하고, 프로세스 종료가 설치되어 있으면 이를 사용하는 프로세스를 종료합니다", allInterfaces: "모든 인터페이스", allInterfacesHelp: "모든 네트워크 인터페이스에서 수신 대기 중이므로 같은 네트워크의 다른 기기가 연결할 수 있습니다.")
     static let zhHans = PortManagerFeatureStrings(title: "端口管理器", filter: "按端口、进程或 PID 筛选", openFormat: "%d 个开放", empty: "未找到监听端口", emptyHint: "尝试刷新或更改搜索条件。", listeningCaption: "您的监听端口", kill: "终止", forceKill: "强制终止", loadFailed: "无法读取监听端口。请尝试刷新。", refresh: "刷新", terminateFormat: "要终止 %@ 吗？", terminateMessageFormat: "终止 PID %2$d 将关闭端口 %1$d。", hubDescription: "查看活动的监听端口，并在已安装“结束进程”时终止使用它们的进程", allInterfaces: "所有接口", allInterfacesHelp: "正在所有网络接口上监听，同一网络中的其他设备可能可以连接。")
     static let zhTW = PortManagerFeatureStrings(title: "連接埠管理器", filter: "依連接埠、程序或 PID 篩選", openFormat: "%d 個開啟", empty: "找不到監聽中的連接埠", emptyHint: "請嘗試重新整理或變更搜尋條件。", listeningCaption: "您的監聽中連接埠", kill: "結束", forceKill: "強制結束", loadFailed: "無法讀取監聽中的連接埠。請嘗試重新整理。", refresh: "重新整理", terminateFormat: "要結束 %@ 嗎？", terminateMessageFormat: "結束 PID %2$d 將關閉連接埠 %1$d。", hubDescription: "檢視使用中的監聽連接埠，並在已安裝「結束處理程序」時結束使用它們的程序", allInterfaces: "所有介面", allInterfacesHelp: "正在所有網路介面上監聽，同一網路中的其他裝置可能可以連線。")
+
+    static let pl = PortManagerFeatureStrings(
+        title: "Menedżer portów",
+        filter: "Filtruj po porcie, procesie lub PID",
+        openFormat: "Otwartych: %d",
+        empty: "Nie znaleziono nasłuchujących portów",
+        emptyHint: "Spróbuj odświeżyć listę albo zmienić wyszukiwanie.",
+        listeningCaption: "Nasłuchujące porty",
+        kill: "Zakończ",
+        forceKill: "Wymuś zakończenie",
+        loadFailed: "Nie udało się odczytać nasłuchujących portów. Spróbuj odświeżyć.",
+        refresh: "Odśwież",
+        terminateFormat: "Zakończyć %@?",
+        terminateMessageFormat: "Spowoduje to zamknięcie portu %d przez zakończenie procesu PID %d.",
+        hubDescription: "Wyświetlaj aktywne nasłuchujące porty i, po zainstalowaniu funkcji Zakończ proces, kończ procesy, które z nich korzystają",
+        allInterfaces: "Wszystkie interfejsy",
+        allInterfacesHelp: "Nasłuchuje na wszystkich interfejsach sieciowych, więc inne urządzenia w sieci mogą mieć możliwość połączenia."
+    )
     static let zhHK = PortManagerFeatureStrings(title: "連接埠管理員", filter: "按連接埠、程序或 PID 篩選", openFormat: "%d 個開啟", empty: "找不到監聽中的連接埠", emptyHint: "請嘗試重新整理或變更搜尋條件。", listeningCaption: "您的監聽中連接埠", kill: "結束", forceKill: "強制結束", loadFailed: "無法讀取監聽中的連接埠。請嘗試重新整理。", refresh: "重新整理", terminateFormat: "要結束 %@ 嗎？", terminateMessageFormat: "結束 PID %2$d 會關閉連接埠 %1$d。", hubDescription: "檢視使用中的監聽連接埠，並在已安裝「結束處理程序」時結束使用它們的程序", allInterfaces: "所有介面", allInterfacesHelp: "正在所有網絡介面上監聽，同一網絡中的其他裝置可能可以連線。")
 }
