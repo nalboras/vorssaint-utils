@@ -29,7 +29,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -168,6 +168,17 @@ extension RecentCaptureStrings {
         clear: "清除記錄"
     )
 
+
+    static let pl = RecentCaptureStrings(
+        title: "Ostatnio przechwycone",
+        empty: "Wykonaj zrzut ekranu albo zapisz nagranie, aby pojawiło się tutaj.",
+        screenshot: "Zrzut ekranu",
+        recording: "Nagranie",
+        restore: "Przywróć",
+        open: "Otwórz",
+        remove: "Usuń z historii",
+        clear: "Wyczyść historię"
+    )
     static let zhHK = RecentCaptureStrings(
         title: "最近擷取",
         empty: "截取畫面或儲存螢幕錄影後，就會顯示喺呢度。",
