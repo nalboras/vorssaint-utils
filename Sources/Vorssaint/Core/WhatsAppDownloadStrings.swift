@@ -60,6 +60,7 @@ struct WhatsAppDownloadStrings {
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
         case .zhHK: return .zhHK
+        case .pl: return .pl
         }
     }
 }
@@ -438,7 +439,7 @@ extension WhatsAppDownloadStrings {
                 localNote: "只检查本地元数据。Vorssaint 绝不读取聊天或文件内容。",
                 notificationFormat: "%1$d 个文件（%2$@）已移到废纸篓。%3$d 个失败。",
                 scanFailed: "无法扫描下载文件夹。请检查系统设置中的“文件与文件夹”。", manageButton: "管理…")
-        case .pl: return .enUS
+        case .pl: return operational(.enUS)
         case .zhTW, .zhHK:
             return OperationalStrings(
                 automaticCaption: "每天檢查一次，並將超過期限的相符檔案移至垃圾桶。",
