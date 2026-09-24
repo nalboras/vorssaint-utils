@@ -30,7 +30,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -181,6 +181,18 @@ extension RecorderShareStrings {
         tourCaption: "在這台Mac上壓縮完成的錄製，並分享1小時或6小時。"
     )
 
+
+    static let pl = RecorderShareStrings(
+        caption: "Wybierz 1 lub 6 godzin. Końcowy film jest kompresowany na tym Macu tak, aby zmieścić się w 100 MB, a następnie automatycznie usuwany.",
+        privacyData: "Vorssaint wysyła tylko końcowy film utworzony z tego nagrania, wraz z zachowanym dźwiękiem i wybranym czasem wygaśnięcia. Nie wysyła imienia i nazwiska, konta ani identyfikatora urządzenia.",
+        privacyStorage: "Operatorzy sieci i usługa tymczasowo przetwarzają Twój publiczny adres IP w celu ochrony przed nadużyciami. Film i metadane linku są trwale usuwane po usunięciu linku lub upływie jego ważności. Usługa nie tworzy kopii zapasowych.",
+        privacyAccess: "Każdy, kto ma link, może wyświetlać, pobierać, zapisywać i dalej udostępniać film. Aktywne linki są dostępne operatorowi usługi w celu moderacji nadużyć. Udostępniaj je tylko zaufanym osobom.",
+        compressing: "Kompresowanie do udostępnienia…",
+        uploading: "Bezpieczne wysyłanie…",
+        tooLarge: "Tego nagrania nie można zmieścić poniżej 100 MB bez zbyt dużej utraty jakości.",
+        failed: "Nie udało się utworzyć tymczasowego linku",
+        tourCaption: "Skompresuj ukończone nagranie na tym Macu i udostępnij je na 1 lub 6 godzin."
+    )
     static let zhHK = RecorderShareStrings(
         caption: "選擇1小時或6小時。最終影片會在這部Mac上壓縮至100 MB以內，並自動刪除。",
         privacyData: "Vorssaint只會傳送由這段錄製建立的最終影片、你保留的音訊和所選期限，不會傳送姓名、帳戶或裝置識別碼。",
