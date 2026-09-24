@@ -62,7 +62,7 @@ extension FeatureStrings {
 
 extension ScratchpadFeatureStrings {
     static let enUS = ScratchpadFeatureStrings(
-        pageTitle: "Scratchpad",
+        pageTitle: "Notatnik podręczny",
         hubDescription: "Floating pads for short-lived notes",
         panelCaption: "Quick notes in separate tabs",
         openButton: "Open scratchpad",
@@ -486,7 +486,7 @@ extension ScratchpadFeatureStrings {
         pageTitle: "Scratchpad",
         hubDescription: "Pływające notatniki do krótkotrwałych notatek",
         panelCaption: "Szybkie notatki w osobnych kartach",
-        openButton: "Otwórz Scratchpad",
+        openButton: "Otwórz notatnik",
         placeholder: "Wpisz cokolwiek. Zapisuje się automatycznie.",
         copyAll: "Kopiuj wszystko",
         copied: "Skopiowano",
@@ -506,7 +506,7 @@ extension ScratchpadFeatureStrings {
         backgroundTranslucent: "Półprzezroczyste",
         backgroundOpaque: "Nieprzezroczyste",
         newPad: "Nowy notatnik",
-        padActions: "Działania Scratchpad",
+        padActions: "Działania notatnika",
         renamePad: "Zmień nazwę notatnika",
         closePad: "Zamknij notatnik",
         saveName: "Zapisz",
