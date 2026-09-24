@@ -8,6 +8,7 @@ import Foundation
 /// language; the onboarding and Settings let the user override it at any time.
 enum AppLanguage: String, CaseIterable, Identifiable {
     case enUS = "en-US"
+	case pl = "pl"
     case ptBR = "pt-BR"
     case tr = "tr"
     case ru = "ru"
@@ -32,6 +33,7 @@ enum AppLanguage: String, CaseIterable, Identifiable {
     var displayName: String {
         switch self {
         case .enUS: return "English (US)"
+		case .pl: return "Polski"
         case .ptBR: return "Português (Brasil)"
         case .tr: return "Türkçe"
         case .ru: return "Русский"
