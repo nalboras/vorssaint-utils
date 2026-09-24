@@ -54,7 +54,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -481,6 +481,41 @@ extension ScratchpadFeatureStrings {
         editText: "編輯文字"
     )
 
+
+    static let pl = ScratchpadFeatureStrings(
+        pageTitle: "Scratchpad",
+        hubDescription: "Pływające notatniki do krótkotrwałych notatek",
+        panelCaption: "Szybkie notatki w osobnych kartach",
+        openButton: "Otwórz Scratchpad",
+        placeholder: "Wpisz cokolwiek. Zapisuje się automatycznie.",
+        copyAll: "Kopiuj wszystko",
+        copied: "Skopiowano",
+        exportAction: "Zapisz jako plik",
+        exportFailed: "Nie udało się zapisać pliku",
+        loadFailed: "Nie udało się otworzyć notatek. Pozostawiono je bez zmian.",
+        clearAction: "Wyczyść",
+        retentionTitle: "Automatyczne czyszczenie",
+        retentionNever: "Nigdy",
+        retentionDay: "Po dniu bez użycia",
+        retentionWeek: "Po tygodniu bez użycia",
+        retentionMonth: "Po miesiącu bez użycia",
+        retentionCaption: "Notatnik zostanie wyczyszczony, gdy przez wybrany czas tekst nie będzie edytowany.",
+        closeOnClickOutside: "Zamykaj po kliknięciu poza oknem",
+        keepOpen: "Pozostaw otwarte",
+        backgroundOpacity: "Tło notatnika",
+        backgroundTranslucent: "Półprzezroczyste",
+        backgroundOpaque: "Nieprzezroczyste",
+        newPad: "Nowy notatnik",
+        padActions: "Działania Scratchpad",
+        renamePad: "Zmień nazwę notatnika",
+        closePad: "Zamknij notatnik",
+        saveName: "Zapisz",
+        cancel: "Anuluj",
+        deletePadMessageFormat: "Usunąć „%@” i całą jego zawartość?",
+        padLimitFormat: "Możesz zachować maksymalnie %d notatników",
+        previewFormatting: "Pokaż formatowanie",
+        editText: "Edytuj tekst"
+    )
     static let zhHK = ScratchpadFeatureStrings(
         pageTitle: "草稿板",
         hubDescription: "用分頁整理臨時筆記的浮動記事板",
