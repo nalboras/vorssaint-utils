@@ -27,7 +27,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -142,6 +142,15 @@ extension DiskExclusionStrings {
         caption: "使用「退出所有磁碟」時，此列表中的磁碟機絕不會被退出。"
     )
 
+
+    static let pl = DiskExclusionStrings(
+        listTitle: "Dyski wykluczone",
+        addButton: "Dodaj dysk…",
+        otherDrive: "Nazwa innego dysku…",
+        removeButton: "Usuń",
+        customPlaceholder: "Nazwa dysku lub woluminu",
+        caption: "Dyski z tej listy nigdy nie zostaną odmontowane przy użyciu polecenia „Wysuń wszystkie dyski”."
+    )
     static let zhHK = DiskExclusionStrings(
         listTitle: "排除的磁碟機",
         addButton: "加入磁碟機…",
