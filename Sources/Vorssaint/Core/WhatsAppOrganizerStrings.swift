@@ -49,7 +49,7 @@ struct WhatsAppOrganizerStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -452,6 +452,39 @@ extension WhatsAppOrganizerStrings {
         privacyNote: "為辨識完全相同的重複檔案，檔案內容僅在本機計算加密摘要時被讀取。內容與聊天絕不會被儲存或上傳。"
     )
 
+
+    static let pl = WhatsAppOrganizerStrings(
+        title: "Automatyczne porządkowanie",
+        experimental: "Eksperymentalne",
+        description: "Przenosi pobrane pliki WhatsApp do dedykowanego folderu i wykrywa identyczne, powtórnie pobrane pliki.",
+        enabled: "Porządkuj automatycznie",
+        enabledCaption: "WhatsApp może ponownie pobrać przeniesiony plik. Vorssaint nie może zapobiec pobraniu z sieci, ale może wykryć i odrzucić identyczną dodatkową kopię.",
+        destination: "Folder docelowy",
+        chooseFolder: "Wybierz…",
+        useDefault: "Użyj Pobrane/WhatsApp",
+        invalidDestination: "Wybierz folder inny niż sam folder Pobrane.",
+        organization: "Struktura folderów",
+        flat: "Bez podfolderów",
+        byType: "Według typu pliku",
+        byMonth: "Według roku i miesiąca",
+        delay: "Odczekaj przed przeniesieniem",
+        minutesFormat: "%d minut",
+        duplicateAction: "Gdy ten sam plik zostanie pobrany ponownie",
+        trashDuplicate: "Przenieś nową kopię do Kosza",
+        keepBoth: "Zachowaj obie kopie",
+        replaceExisting: "Zastąp uporządkowaną kopię",
+        duplicateCaption: "Duplikaty są potwierdzane na podstawie prywatnego skrótu SHA-256. Uporządkowana kopia jest ponownie sprawdzana przed odrzuceniem kolejnej.",
+        organizeNow: "Uporządkuj kwalifikujące się pliki teraz",
+        undo: "Cofnij ostatnie porządkowanie",
+        waiting: "Monitorowanie folderu Pobrane",
+        working: "Porządkowanie plików WhatsApp…",
+        resultFormat: "Przeniesiono: %1$d · duplikaty: %2$d · błędy: %3$d",
+        lastRunFormat: "Ostatnie porządkowanie %@: przeniesiono %d · duplikaty %d · błędy %d",
+        neverRun: "Nie wykonano jeszcze żadnego porządkowania.",
+        notificationTitle: "Porządkowanie WhatsApp",
+        notificationFormat: "Uporządkowano %1$d plików. Obsłużono %2$d zduplikowanych pobrań. Błędów: %3$d.",
+        privacyNote: "Aby rozpoznawać dokładne duplikaty, bajty pliku są odczytywane lokalnie tylko podczas obliczania skrótu kryptograficznego. Zawartość plików i czaty nigdy nie są zapisywane ani przesyłane."
+    )
     static let zhHK = WhatsAppOrganizerStrings(
         title: "自動整理",
         experimental: "實驗性",
