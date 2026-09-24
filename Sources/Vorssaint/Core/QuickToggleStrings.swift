@@ -49,7 +49,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -392,6 +392,34 @@ extension QuickToggleFeatureStrings {
         actionFailed: "無法完成。"
     )
 
+
+    static let pl = QuickToggleFeatureStrings(
+        pageTitle: "Szybkie przełączniki",
+        hubDescription: "Jednym kliknięciem włączaj tryb ciemny, opróżniaj Kosz i wykonuj inne działania",
+        panelCaption: "Działania systemowe dostępne jednym kliknięciem w panelu paska menu i panelu szybkich narzędzi.",
+        darkModeToDark: "Przełącz na tryb ciemny",
+        darkModeToLight: "Przełącz na tryb jasny",
+        darkModeCaption: "Zmienia wygląd całego systemu.",
+        emptyTrashTitle: "Opróżnij Kosz",
+        emptyTrashCaption: "Usuwa wszystko z Kosza.",
+        emptyTrashConfirmTitle: "Opróżnić Kosz?",
+        emptyTrashConfirmMessage: "Wszystkie elementy z Kosza zostaną usunięte. Tej operacji nie można cofnąć.",
+        emptyTrashConfirmButton: "Opróżnij Kosz",
+        ejectTitle: "Wysuń wszystkie dyski",
+        ejectCaption: "Bezpiecznie wysuwa wszystkie zewnętrzne dyski.",
+        hiddenFilesShow: "Pokaż ukryte pliki",
+        hiddenFilesHide: "Ukryj ukryte pliki",
+        desktopIconsHide: "Ukryj ikony biurka",
+        desktopIconsShow: "Pokaż ikony biurka",
+        finderRestartCaption: "Aby zastosować zmianę, Finder zostanie uruchomiony ponownie.",
+        lockScreenTitle: "Zablokuj ekran",
+        lockScreenCaption: "Aby wrócić do pracy, potrzebne będzie hasło.",
+        displayOffTitle: "Wyłącz ekran",
+        displayOffCaption: "Mac będzie nadal działał przy wyłączonym ekranie.",
+        screenSaverTitle: "Uruchom wygaszacz ekranu",
+        screenSaverCaption: "Uruchamia się od razu na każdym ekranie.",
+        actionFailed: "Nie udało się wykonać działania."
+    )
     static let zhHK = QuickToggleFeatureStrings(
         pageTitle: "快速動作",
         hubDescription: "深色模式、垃圾桶等一鍵動作",
