@@ -50,7 +50,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -338,6 +338,29 @@ extension SuperKeyStrings {
         mappingSystemRefused: "macOS 拒絕了按鍵對應。請重新連接鍵盤或重新啟動 Mac，然後重新開啟此功能。"
     )
 
+
+    static let pl = SuperKeyStrings(
+        pageTitle: "Superklawisz",
+        hubDescription: "Zamienia jeden klawisz w wybraną przez Ciebie kombinację klawiszy modyfikujących.",
+        enableToggle: "Używaj tego klawisza jako superklawisza",
+        enableCaption: "Przytrzymaj go i naciśnij dowolny klawisz. Poniżej wybierz jeden lub więcej klawiszy modyfikujących.",
+        modifierKeysNote: "Pozostaw ten klawisz z domyślną funkcją w Ustawieniach systemowych › Klawiatura › Klawisze modyfikujące.",
+        sourceKey: "Klawisz do przytrzymania",
+        capsLockKey: "Caps Lock",
+        rightKeyFormat: "Prawy %@",
+        holdHint: "Przytrzymaj",
+        soloSection: "Samodzielne stuknięcie",
+        soloCaption: "Określ, co robi krótkie stuknięcie, gdy nie jest naciskany żaden inny klawisz.",
+        soloNothing: "Nic",
+        soloCapsLock: "Włączaj i wyłączaj wielkie litery",
+        soloEscape: "Naciśnij Escape",
+        activeNow: "Działa",
+        panelCaptionFormat: "%1$@ działa jako %2$@.",
+        manageButton: "Skonfiguruj…",
+        soloInputSource: "Przełącz źródło wprowadzania; przytrzymaj, aby użyć Caps Lock",
+        mappingForeignMapping: "Inna aplikacja korzysta z mapowania wybranego klawisza. Usuń je w tej aplikacji — samo jej zamknięcie nie wystarczy.",
+        mappingSystemRefused: "macOS odrzucił mapowanie klawisza. Podłącz ponownie klawiaturę albo uruchom Maca ponownie, a następnie włącz tę funkcję jeszcze raz."
+    )
     static let zhHK = SuperKeyStrings(
         pageTitle: "超級鍵",
         hubDescription: "將一個按鍵變成你揀嘅修飾鍵組合。",
