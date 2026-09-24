@@ -503,6 +503,7 @@ extension FeatureStrings {
             liveEqualizerDescription: "讓Dynamic Island的音柱隨播放器的聲音起伏。",
             liveEqualizerHint: "監聽播放器本身的音訊輸出來驅動音柱。macOS 會請求一次系統音訊錄製權限。不會儲存或傳送任何內容。未授權時音柱保持原有動畫。",
             liveEqualizerUnavailable: "需要 macOS 14.4 或更新版本。")
+        case .pl: return notchMusicExtras(.enUS)
         case .zhHK: return NotchMusicExtrasStrings(
             lyrics: "歌詞",
             lyricsDescription: "在Dynamic Island中跟隨目前歌曲的歌詞。",
