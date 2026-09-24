@@ -41,7 +41,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -324,6 +324,29 @@ extension DiskImageInstallerStrings {
         installingFormat: "正在安裝 %@…"
     )
 
+
+    static let pl = DiskImageInstallerStrings(
+        title: "Instalator obrazu dysku",
+        hubDescription: "Instaluj aplikację z obrazu dysku i posprzątaj pobrany plik",
+        useUserApplications: "Instaluj w folderze Programy w katalogu domowym",
+        applicationsFolder: "folderze Programy",
+        userApplicationsFolder: "folderze Programy w katalogu domowym",
+        promptTitle: "Zainstalować tę aplikację?",
+        promptBodyFormat: "%@ zostanie skopiowana do %@, a obraz dysku zostanie wysunięty.",
+        installButton: "Zainstaluj",
+        installedTitle: "Aplikacja zainstalowana",
+        installedBodyFormat: "%@ jest gotowa w %@. Obraz dysku został wysunięty, a pobrany plik przeniesiony do Kosza.",
+        installedKeepingMountBodyFormat: "%@ jest zainstalowana w %@, ale nie udało się wysunąć obrazu dysku. Pobrany plik pozostawiono na miejscu.",
+        installedKeepingDownloadBodyFormat: "%@ jest zainstalowana w %@ i obraz dysku został wysunięty, ale nie udało się przenieść pobranego pliku do Kosza.",
+        failedTitle: "Nie udało się zainstalować",
+        failedBody: "Nic nie zostało zmienione. Nadal możesz przeciągnąć aplikację do folderu Programy.",
+        verificationFailedBody: "Ten Mac nie mógł zweryfikować aplikacji, więc nic nie zostało zainstalowane.",
+        alreadyInstalledBodyFormat: "%@ jest już w folderze Programy.",
+        trashDownloadOption: "Przenieś pobrany plik do Kosza",
+        revealAppOption: "Pokaż zainstalowaną aplikację w Finderze",
+        installedKeptDownloadBodyFormat: "%@ jest gotowa w %@. Obraz dysku został wysunięty, ale pobrany plik pozostawiono na miejscu.",
+        installingFormat: "Instalowanie %@…"
+    )
     static let zhHK = DiskImageInstallerStrings(
         title: "磁碟映像檔安裝器",
         hubDescription: "安裝磁碟映像檔中的單一 App，並清理下載檔案",
