@@ -33,7 +33,7 @@ extension FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
-        case .pl: return .enUS
+        case .pl: return .pl
         case .zhHK: return .zhHK
         }
     }
@@ -196,6 +196,19 @@ extension SettingsPageStrings {
         switcherLayoutSimple: "簡單列表"
     )
 
+
+    static let pl = SettingsPageStrings(
+        energyDescription: "Nie pozwalaj Macowi zasypiać, steruj ekranami i oszczędzaj baterię.",
+        monitorDescription: "Informacje o Macu wyświetlane na pasku menu i w panelu oraz momenty, w których mają pojawiać się ostrzeżenia.",
+        mouseDescription: "Nadaj kółku myszy, przyciskom bocznym i gładzikowi nowe funkcje.",
+        switcherDescription: "Przełączaj aplikacje i okna na własnych zasadach.",
+        dockTitle: "Dock",
+        dockDescription: "Wyświetlaj okna aplikacji z jej ikony w Docku i wybierz, co ma robić kliknięcie.",
+        switcherLayoutWindows: "Podglądy okien",
+        switcherLayoutWindowsCaption: "Jeden podgląd na okno, także dla okien zminimalizowanych.",
+        switcherLayoutIcons: "Duże ikony",
+        switcherLayoutSimple: "Prosta lista"
+    )
     static let zhHK = SettingsPageStrings(
         energyDescription: "讓 Mac 保持喚醒、調整顯示器並節省電量。",
         monitorDescription: "選單列和面板顯示 Mac 的哪些資訊，以及何時提醒你。",
