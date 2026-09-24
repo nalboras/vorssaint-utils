@@ -18,6 +18,7 @@ enum FeatureStrings {
         case .ko: return .ko
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
+        case .pl: return .enUS
         case .zhHK: return .zhHK
         }
     }
