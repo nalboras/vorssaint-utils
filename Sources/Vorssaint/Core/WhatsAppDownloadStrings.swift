@@ -60,7 +60,7 @@ struct WhatsAppDownloadStrings {
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
         case .zhHK: return .zhHK
-        case .pl: return .pl
+        case .pl: return .enUS
         }
     }
 }
