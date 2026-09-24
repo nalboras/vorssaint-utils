@@ -1580,7 +1580,7 @@ extension FeatureHubStrings {
         descHomebrew: "Aktualizuj pakiety Homebrew",
         descMonitorCPU: "Użycie i temperatura procesora",
         descMonitorGPU: "Użycie i temperatura układu graficznego",
-        descMonitorMemory: "Użycie i nacisk pamięci",
+        descMonitorMemory: "Użycie i presja pamięci",
         descMonitorNetwork: "Prędkość i użycie sieci",
         descMonitorDisk: "Miejsce i aktywność dysków",
         descMonitorPower: "Bateria, zasilanie i ładowanie",
